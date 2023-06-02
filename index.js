@@ -14,6 +14,8 @@ function init() {}
 // Function call to initialize app
 init();
 
+console.log('hello')
+
 
 /*
 inquirer
