@@ -21,12 +21,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project?'
+        message: 'What is required to install your project?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What is done to use your project?'
+        message: 'What is required to use your project?'
     },
     {
         type: 'list',
@@ -51,18 +51,22 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'githubUser',
-        message: 'What is your GitHub username?'
+        name: 'email',
+        message: 'What is your email?'
     },
     {
         type: 'input',
-        name: 'email',
-        message: 'What is your email?'
+        name: 'githubUser',
+        message: 'What is your GitHub username?'
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
+
+
 
 // TODO: Create a function to initialize app
 function init() {}
