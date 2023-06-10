@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function that returns a license badge based on which license is passed in. If there is no license, return an empty string. 
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `![licenseBadge](https://img.shields.io/badge/license-${license}-blue.svg)`;
@@ -7,8 +6,7 @@ function renderLicenseBadge(license) {
   return '';
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link. If there is no license, return an empty string.
 function renderLicenseLink(license) {
   if (license !== "None") {
     return `* [License](#license)`;
@@ -16,8 +14,7 @@ function renderLicenseLink(license) {
   return '';
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README. If there is no license, return an empty string. 
 function renderLicenseSection(license) {
   if (license !== 'None') {
     return `## License
@@ -26,9 +23,7 @@ function renderLicenseSection(license) {
   } return '';
 }
 
-// TODO: Create a function to generate markdown for README
-// Project Title, Description, Table of Contents, Installation, Usage, License, Contributing, 
-// Tests, and Questions (user and email for Q)
+// Function to generate markdown for README, includes table of contents
 function generateMarkdown(data) {
   return `# ${data.projectTitle}  ${renderLicenseBadge(data.license)}
 
@@ -75,5 +70,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown
-
-// An interactive README generator that runs prompts and creates a file based on user responses. 
