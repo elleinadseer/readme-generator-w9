@@ -1,12 +1,11 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// Connects the generateMarkdown file
 const generateMarkdown = require('/Users/danielle/bootcamp/readme-generator-w9/utils/generateMarkdown.js')
 
-// TODO: Create an array of questions for user input
-// Questions: Project Title, Description, Table of Contents, Installation, Usage, License, Contributing, 
-// Tests, and Questions (user and email for Q)
-
+// An array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -61,14 +60,14 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file using FS. Deals with errors if they occur. 
 function writeToFile(fileName, data) {
         fs.writeFile('README.md', data, (err) =>
         err ? console.error(err) : console.log("Success")
         );
       }  
 
-// TODO: Create a function to initialize app
+// Function to initialize app. Using inquirer to ask prompts then provides answers to the generateMarkdown file. 
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdown = generateMarkdown(answers);
