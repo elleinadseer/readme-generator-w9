@@ -14,7 +14,7 @@ This project was relatively straight forward as I was able to elaborate on work 
 
 ## Usage
 
-![Screenshot 2023-05-18 at 4 58 12 pm](https://github.com/elleinadseer/weather-dashboard-w6/assets/126515415/59bc56b4-18e8-4fca-8b8f-4c5a7faaeab0)
+![Screenshot 2023-06-10 at 1 37 46 am](https://github.com/elleinadseer/readme-generator-w9/assets/126515415/6fd5e3e8-98e2-4c1d-b658-7de12536a248)
 
 ## Credits
 
