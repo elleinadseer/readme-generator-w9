@@ -14,7 +14,7 @@ This project was relatively straight forward as I was able to elaborate on work 
 
 ## Usage
 
-![Screenshot 2023-06-10 at 1 37 46 am](https://github.com/elleinadseer/readme-generator-w9/assets/126515415/6fd5e3e8-98e2-4c1d-b658-7de12536a248)
+![Screenshot 2023-06-10 at 1 53 29 am](https://github.com/elleinadseer/readme-generator-w9/assets/126515415/b46e98aa-c8aa-4b1f-9fec-e814996d64af)
 
 ## Credits
 
