@@ -1,43 +1,25 @@
-# jljlk  ![licenseBadge](https://img.shields.io/badge/license-GPLv2-blue.svg)
+# readme-generator-w9  ![licenseBadge](https://img.shields.io/badge/license-MIT-blue.svg)
+## Description
 
-  ## Description
-  iouuo
+I have been tasked to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Using NPM I have utilised inquirer to create answerable prompts and fs to connect to a separate file containing a template for the README that will be created using user answers. 
 
-  ## Table of Contents
+## Links
 
-  * [Installation](#installation)
+Link to GitHub repo: 
+https://github.com/elleinadseer/readme-generator-w9
 
-  * [Usage](#usage)
+## Development
 
-  * [License](#license)
+This project was relatively straight forward as I was able to elaborate on work I had already created during the activities of my 9th module - my specific struggle was implementing the formatting for the writeFile and inquirer sections. I had to test a few different approaches for this to get the result I wanted, as a previous method I used successfully in my activities didn't seem to carry over correctly. Eventually I did arrive at the answer by observing the consistencies in the formatting presented in examples given in the activities. 
 
-  * [Contributing](#contributing)
+## Usage
 
-  * [Tests](#tests)
+![Screenshot 2023-05-18 at 4 58 12 pm](https://github.com/elleinadseer/weather-dashboard-w6/assets/126515415/59bc56b4-18e8-4fca-8b8f-4c5a7faaeab0)
 
-  * [Questions](#questions)
+## Credits
 
-  ## Installation
+I have heavily relied on information taught through the module 9 lessons of the bootcamp; copying and then editing code from the lessons of this module to fit my needs. Some code was already pre-provided for our use. 
 
-  The requirements to install this project are: jlkjl
+## License
 
-  ## Usage
-
-  The requirements to use this project are: kjlkjlk
-
-  ## License
-    
-This project uses the GPLv2 license.
-
-  ## Contributing
-
-  How to contribute to the project: jkjlk
-
-  ## Tests
-
-  How to test this programme: kkljkl
-
-  ## Questions
-
-  If you have further questions about this project please feel free to contact my email at: lkjklj <br>
-  To see more examples of my work, please visit my GitHub page at: https://github.com/lkjlkj 
+MIT license was used for this repository. 

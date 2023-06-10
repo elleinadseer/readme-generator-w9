@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   if (license !== 'None') {
     return `## License
     
-This project uses the ${license} license.`;
+  This project uses the ${license} license.`;
   } return '';
 }
 
@@ -75,3 +75,5 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown
+
+// An interactive README generator that runs prompts and creates a file based on user responses. 
