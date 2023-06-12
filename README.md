@@ -9,7 +9,7 @@ Link to GitHub repo:
 https://github.com/elleinadseer/readme-generator-w9
 
 Walkthrough video:
-https://drive.google.com/file/d/1SsNg3ishEKXmKbDKGODburmmbq0U68ua/viewLinks to an external site.
+https://drive.google.com/file/d/1SsNg3ishEKXmKbDKGODburmmbq0U68ua/view
 
 ## Development
 
