@@ -8,6 +8,9 @@ I have been tasked to create a command-line application that dynamically generat
 Link to GitHub repo: 
 https://github.com/elleinadseer/readme-generator-w9
 
+Walkthrough video:
+https://drive.google.com/file/d/1SsNg3ishEKXmKbDKGODburmmbq0U68ua/viewLinks to an external site.
+
 ## Development
 
 This project was relatively straight forward as I was able to elaborate on work I had already created during the activities of my 9th module - my specific struggle was implementing the formatting for the writeFile and inquirer sections. I had to test a few different approaches for this to get the result I wanted, as a previous method I used successfully in my activities didn't seem to carry over correctly. Eventually I did arrive at the answer by observing the consistencies in the formatting presented in examples given in the activities. 
